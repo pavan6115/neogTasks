@@ -71,3 +71,58 @@ const typeOfTriangle = (a,b,c) => {
     else return `Scalene Triangle`
 }
 typeOfTriangle(30,90,30)  //Isoceles Triangle
+
+
+
+// Medium Section -
+
+```
+1 - 
+Given an array, your function should return the length of the array.
+Example:
+Input: arrayLength([1,5,3,7,8]) ––> Output: 5
+```
+const arrayLength = arr => arr.length
+arrayLength([3,3,4,2,4,2])  // 6
+
+
+```
+2 -
+Given an array and an item, your function should return the index at which the item is present.
+Example:
+Input: indexOf([1,6,3,5,8,9], 3) ––> Output: 2
+```
+const calIndex = (arr, element) => console.log(indexOf(element))
+calIndex([1,6,3,5,8,9], 3)  // 2
+
+
+```
+3 -
+Given an array and two numbers, your function should replace all entries of first number in an array with the second number.
+Example:
+Input: replace([1,5,3,5,6,8], 5, 10) ––> Output: [1,10,3,10,6,8]
+```
+const replace = (arr, n1, n2) => {
+    console.log('Before - ',arr)
+    for(let i = 0; i < arr.length; i++){
+      if(arr[i] == n1) arr[i] = n2
+    }
+    console.log('After - ',arr)
+}
+replace([1,5,3,5,6,8], 5, 10) // Before -  [ 1, 5, 3, 5, 6, 8] After -  [ 1, 10, 3, 10, 6, 8 ]
+
+
+```
+4 -
+Given two arrays, your function should return single merged array.
+Example:
+Input: mergeArray([1,3,5], [2,4,6]) ––> Output: [1,3,5,2,4,6]
+```
+const mergeArray = (arr1, arr2) => console.log([...arr1, ...arr2])
+mergeArray([1,3,5], [2,4,6])  // [1,3,5,2,4,6]
+
+
+```
+5 -
+
+```
