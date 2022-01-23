@@ -678,6 +678,6 @@ body {
 
 .himgtxt-icon-three-dot:hover {
     background-color: var(--icons-hover-color);
-    border-radius: 50;
+    border-radius: 50%;
 }
 /* END HORIZONTAL IMG&TXT */
