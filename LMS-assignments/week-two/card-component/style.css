@@ -19,12 +19,15 @@ body {
     /* background-color: #F6C28B; */
     font-family: 'Ubuntu', sans-serif;
     background: var(--background-color) url("https://lwfiles.mycourse.app/warikoo-public/493b0c29c3995efaa13a6ae0a0ca765e.png") no-repeat center;
+    
 }
 
 .cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 12px;
+    height: 100vh;;
 }
 
 /* BASIC CARD */
@@ -33,8 +36,9 @@ body {
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
     height: 38rem;
-    width: 20%;
+    width: 23rem;
     margin: 1rem;
+    grid-area: "basic";
 }
 
 .card-basic-img{
@@ -136,7 +140,7 @@ body {
     background-color: var(--background-card-color);
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
-    width: 20%;
+    width: 23rem;
     height : 34rem;
     margin: 1rem;
 }
@@ -256,7 +260,7 @@ body {
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
     height: 39rem;
-    width: 20%;
+    width: 23rem;
     margin: 1rem;
 }
 
@@ -363,7 +367,7 @@ body {
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
     height: 38rem;
-    width: 20%;
+    width: 23rem;
     margin: 1rem;
 }
 
@@ -466,7 +470,7 @@ body {
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
     height: 38rem;
-    width: 20%;
+    width: 23rem;
     margin: 1rem;
 }
 
@@ -571,7 +575,7 @@ body {
     box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
     border-radius: 8px;
     height: 16rem;
-    width: 35%;
+    width: 35rem;
     margin: 1rem;
 }
 
@@ -584,13 +588,13 @@ body {
 .himgtxt-title{
     position: absolute;
     top : 5rem;
-    right : 15rem;
+    right : 9rem;
 }
 
 .himgtxt-subtitle {
     position: absolute;
-    top : 6.5rem;
-    right : 10.3rem;
+    top : 6.7rem;
+    right : 4.5rem;
 }
 
 .card-himgtxt-info {
