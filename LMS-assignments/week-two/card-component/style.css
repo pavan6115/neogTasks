@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+
+:root {
+    --background-color : #ffedd8;
+    --background-card-color : #f4f3ee;
+    --text-color : #583101;
+    --text-hover-color : rgba(231, 188, 145, 0.5);
+    --icons-hover-color : rgba(231, 188, 145, 0.3);
+}
+
+body {
+    margin : 2rem;
+    /* background-color: #F6C28B; */
+    font-family: 'Ubuntu', sans-serif;
+    background: var(--background-color) url("https://lwfiles.mycourse.app/warikoo-public/493b0c29c3995efaa13a6ae0a0ca765e.png") no-repeat center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* BASIC CARD */
+.basic-card-container {
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 38rem;
+    width: 20%;
+    margin: 1rem;
+}
+
+.card-basic-img{
+    border-radius: 8px 8px 0px 0px;
+    height: 25rem;
+    width: 100%;
+}
+
+.card-basic-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-basic-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-basic-description {
+    margin-top: 1rem;
+}
+
+.card-basic-button-icon {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.basic-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.basic-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.basic-button-bookmark {
+    padding: .5rem;
+} 
+
+.basic-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.basic-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.basic-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.basic-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.basic-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.basic-icon-three-dot {
+    padding : .5rem;
+}
+
+.basic-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.basic-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.basic-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+/* END BASIC CARD */
+
+
+
+/* TEXT OVER PHOTO (top) */
+.top-card-container {
+    position: relative;
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    width: 20%;
+    height : 34rem;
+    margin: 1rem;
+}
+
+.card-top-img{
+    border-radius: 8px 8px 0px 0px;
+    height: 25rem;
+    width: 100%;
+}
+
+.top-card-title {
+    position: absolute;
+    bottom : 10.5rem;
+    left: 1rem;
+}
+
+.top-card-subtitle {
+    position : absolute; 
+    bottom : 9.4rem;
+    left: 1rem;
+}
+
+.top-img-container {
+    color : white;
+}
+
+.card-top-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-top-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-top-description {
+    margin-top: .3rem;
+}
+
+.card-top-button-icon {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.top-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-button-bookmark {
+    padding: .5rem;
+} 
+
+.top-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.top-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.top-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.top-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.top-icon-three-dot {
+    padding : .5rem;
+}
+
+.top-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.top-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.top-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+/* END TEXT OVER PHOTO */
+
+
+
+/* TEXT IN HEADER (tih)*/
+.tih-card-container {
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 39rem;
+    width: 20%;
+    margin: 1rem;
+}
+
+.card-tih-heading {
+    padding: 1rem;
+}
+
+.card-tih-img{
+    /* border-radius: 8px 8px 0px 0px; */
+    height: 25rem;
+    width: 100%;
+}
+
+.card-tih-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tih-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-tih-description {
+    margin-top: .3rem;
+}
+
+.card-tih-button-icon {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tih-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.tih-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.tih-button-bookmark {
+    padding: .5rem;
+} 
+
+.tih-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.tih-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.tih-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.tih-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.tih-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.tih-icon-three-dot {
+    padding : .5rem;
+}
+
+.tih-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.tih-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.tih-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+/* END TEXT IN HEADER */
+
+
+
+/* BASIC WITH BUTTONS (bbtn)*/
+.bbtn-card-container {
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 38rem;
+    width: 20%;
+    margin: 1rem;
+}
+
+.card-bbtn-img{
+    border-radius: 8px 8px 0px 0px;
+    height: 25rem;
+    width: 100%;
+}
+
+.card-bbtn-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bbtn-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-bbtn-description {
+    margin-top: 1rem;
+}
+
+.card-bbtn-button-icon {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bbtn-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.bbtn-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bbtn-button-bookmark {
+    padding: .5rem;
+} 
+
+.bbtn-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.bbtn-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.bbtn-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.bbtn-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bbtn-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bbtn-icon-three-dot {
+    padding : .5rem;
+}
+
+.bbtn-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.bbtn-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.bbtn-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+/* END BASIC WITH BUTTONS */
+
+
+
+/* BASIC WITH ICONS (bwicons) */
+.bwicons-card-container {
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 38rem;
+    width: 20%;
+    margin: 1rem;
+}
+
+.card-bwicons-img{
+    border-radius: 8px 8px 0px 0px;
+    height: 25rem;
+    width: 100%;
+}
+
+.card-bwicons-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-bwicons-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-bwicons-description {
+    margin-top: 1rem;
+}
+
+.card-bwicons-button-icon {
+    /* border: 1px solid red; */
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bwicons-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.bwicons-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bwicons-button-bookmark {
+    padding: .5rem;
+} 
+
+.bwicons-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.bwicons-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.bwicons-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+    margin-left: auto;
+}
+
+.bwicons-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bwicons-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.bwicons-icon-three-dot {
+    padding : .5rem;
+}
+
+.bwicons-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.bwicons-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.bwicons-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+/* END BASIC WITH ICONS */
+
+
+
+/* HORIZONTAL IMG&TXT */
+.himgtxt-card-container {
+    position: relative;
+    background-color: var(--background-card-color);
+    box-shadow: rgb(86, 87, 83) 10px 10px 20px -5px;
+    border-radius: 8px;
+    height: 16rem;
+    width: 35%;
+    margin: 1rem;
+}
+
+.card-himgtxt-img{
+    border-radius: 8px 8px 8px 0px;
+    height: 12rem;
+    width: 12rem;
+}
+
+.himgtxt-title{
+    position: absolute;
+    top : 2rem;
+    right : 15rem;
+}
+
+.himgtxt-subtitle {
+    position: absolute;
+    top : 3.8rem;
+    right : 10.3rem;
+}
+
+.card-himgtxt-info {
+    padding : 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-himgtxt-heading p {
+    font-weight: 550;
+    line-height: 1.5rem;
+}
+
+.card-himgtxt-description {
+    margin-top: 1rem;
+}
+
+.card-himgtxt-button-icon {
+    /* border: 1px solid red; */
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.himgtxt-button {
+    cursor: pointer;
+    font-weight: bold;
+    color : var(--text-color);
+}
+
+.himgtxt-button-read {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.himgtxt-button-bookmark {
+    padding: .5rem;
+} 
+
+.himgtxt-button-read:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.himgtxt-button-bookmark:hover {
+    background-color: var(--text-hover-color);
+    border-radius: 5px;
+}
+
+.himgtxt-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom : 11px;
+}
+
+.himgtxt-icon-like {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.himgtxt-icon-share {
+    padding : .5rem;
+    margin-right: .5rem;
+}
+
+.himgtxt-icon-three-dot {
+    padding : .5rem;
+}
+
+.himgtxt-icon-like:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.himgtxt-icon-share:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50%;
+}
+
+.himgtxt-icon-three-dot:hover {
+    background-color: var(--icons-hover-color);
+    border-radius: 50;
+}
+/* END HORIZONTAL IMG&TXT */
