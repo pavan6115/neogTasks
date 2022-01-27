@@ -11,12 +11,15 @@
     font-family: 'Karla', sans-serif;
 }
 
+body {
+    background-color: #bbdefb;
+}
+
 .badge-container {
-    /* border: 2px dotted magenta; */
     width: 30rem;
     text-align: center;
     margin: 12rem auto;
-    box-shadow: 2px 2px 17px 6px #ffd7ba;
+    box-shadow: 2px 2px 17px 6px #adb5bd;
     border-radius: 5px;
     font-size: 1.2rem;
 }
