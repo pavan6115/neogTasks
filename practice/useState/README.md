@@ -16,7 +16,7 @@ ex2: password match -
 
 Any signup form, password reset form has this functionality. Take two passwords from user. Show error only if both passwords don't match.
 
-[Solution - StackBlitz]()
+[Solution - StackBlitz](https://stackblitz.com/edit/react-zegdc8)
 
 #
 
