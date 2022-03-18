@@ -75,6 +75,6 @@ Ex7: add to cart -
 - Clicking on the same item twice should add more items in cart.
 - CHALLENGE : increase the count of the item in cart without adding it to list.
 
-[Solution - StackBlitz]()
+[Solution - StackBlitz](https://stackblitz.com/edit/react-rdfipk?file=src%2FApp.js)
 
 #
