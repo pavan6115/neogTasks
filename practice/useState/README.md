@@ -24,6 +24,6 @@ ex3: alphanumeric password -
 
 Password should contain a number. Show error if user misses character.
 
-[Solution - StackBlitz]()
+[Solution - StackBlitz](https://stackblitz.com/edit/react-3xbnba)
 
 #
