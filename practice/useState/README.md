@@ -62,3 +62,19 @@ Ex6: designer tool (mini figma) -
 - Tell which fonts are good for heading. which are good for text.
 - Suggest pair of fonts which go together.
 - Give user an option to copy the CSS. (Bonus feature)
+
+[Solution - StackBlitz](https://stackblitz.com/edit/react-qgywce?file=src%2FApp.js)
+
+#
+
+Ex7: add to cart -
+
+- Show a list of items with add to cart button
+- Clicking on the button should add that item to cart.
+- Show the cart below with items added.
+- Clicking on the same item twice should add more items in cart.
+- CHALLENGE : increase the count of the item in cart without adding it to list.
+
+[Solution - StackBlitz]()
+
+#
