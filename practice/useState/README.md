@@ -12,7 +12,7 @@ See the Twitter post component. It gives you an indicator of the character count
 
 #
 
-ex2: password match -
+Ex2: password match -
 
 Any signup form, password reset form has this functionality. Take two passwords from user. Show error only if both passwords don't match.
 
@@ -20,10 +20,20 @@ Any signup form, password reset form has this functionality. Take two passwords 
 
 #
 
-ex3: alphanumeric password -
+Ex3: alphanumeric password -
 
 Password should contain a number. Show error if user misses character.
 
 [Solution - StackBlitz](https://stackblitz.com/edit/react-3xbnba)
+
+#
+
+Ex4: disable submit -
+
+- Add a submit button to password change field.
+- Disable submit button if passwords don't match
+- Clicking on submit should console the password field
+
+[Solution - StackBlitz](https://stackblitz.com/edit/react-mqifdz)
 
 #
