@@ -130,3 +130,13 @@ Ex11: dark mode -
 [Solution - StackBlitz](https://stackblitz.com/edit/react-mostt7)
 
 #
+
+Ex12: like in a list -
+
+- Render a list
+- Every item in the list should have a like button.
+
+[Solution - StackBlitz](https://stackblitz.com/edit/react-yone72)
+
+#
+
