@@ -77,4 +77,18 @@ Ex7: add to cart -
 
 [Solution - StackBlitz](https://stackblitz.com/edit/react-rdfipk?file=src%2FApp.js)
 
+[Solution(Simplified) - StackBlitz](https://stackblitz.com/edit/react-zpgrsd?file=src%2Findex.js)
+
+#
+
+Ex8: switch tabs
+
+- Make three components: Home, About, Profile.
+- Put some text in the components
+- Now, create three buttons with same name
+- Clicking on the button should show that component
+- UNDERSTANDING : this is kind of your own router, unless we get into router implementation.
+
+[Solution - StackBlitz](https://stackblitz.com/edit/react-u8njar?file=src%2FApp.js)
+
 #
